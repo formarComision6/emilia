@@ -1,10 +1,40 @@
 .home{
-    background-color: red;
+    background-image: url('/images/emilia-home.jpg');
+    background-size: 73% 680px;
+    background-repeat: no-repeat;
+    background-position: 380px 0;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+.home .menu {
+    margin-top: 30px;
+}
+.home .menu, .redes, h2{
+    margin-left: 30px;
+}
+
+.home .menu a{
+    color: gray;
+}
+
+.home .redes a{
+    color: black;
+}
+
+.home h2{
+    margin-top: 105px;
+    margin-bottom: 30px;
+    font-family: 'Work Sans';
+    font-size: 46px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    font-weight: 100;
+
 }
 .home h1{
-    font-size: 40px;
-    text-decoration: underline;
-}
-.home p{
-    
+    font-size: 72px;
+    font-family: 'Raleway';
+    margin-left: 10px;
+    margin-top: 160px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
