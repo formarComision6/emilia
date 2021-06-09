@@ -1,13 +1,18 @@
 .home{
     background-image: url('/images/emilia-home.jpg');
-    background-size: 73% 680px;
+    background-size: 73% 100vh;
     background-repeat: no-repeat;
-    background-position: 380px 0;
+    background-position: right top;
     font-family: 'Open Sans';
     text-transform: uppercase;
 }
 .home .menu {
-    margin-top: 30px;
+    margin-top: 20px;
+    line-height: 30px
+}
+
+.home .redes{
+    margin-top: 10px;
 }
 .home .menu, .redes, h2{
     margin-left: 30px;
@@ -22,7 +27,7 @@
 }
 
 .home h2{
-    margin-top: 105px;
+    margin-top: 80px;
     margin-bottom: 30px;
     font-family: 'Work Sans';
     font-size: 46px;
@@ -32,9 +37,9 @@
 
 }
 .home h1{
-    font-size: 72px;
+    font-size: 70px;
     font-family: 'Raleway';
-    margin-left: 10px;
-    margin-top: 160px;
+    margin: 0 10px;
+    margin-top: 130px;
     background-color: rgba(255, 255, 255, 0.5);
 }
