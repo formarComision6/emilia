@@ -4,10 +4,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans';
 }
 a{
     text-decoration: none;
 }
 li{
     list-style: none;
+}
+
+.fa-twitter-square:hover{
+    color: lightskyblue;
+}
+
+.fa-facebook-square:hover{
+    color : blue;
+}
+
+.fa-instagram-square:hover{
+    color: red
+}
+.fa-spotify:hover{
+    color: green;
+}
+.fa-apple:hover{
+    color: grey;
+}
+.fa-amazon:hover{
+    color: yellow;
 }
