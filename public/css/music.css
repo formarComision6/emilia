@@ -18,6 +18,11 @@
     width: 85px;
     text-align: center;
 }
+
+.music .menu a {
+    color: black;
+    text-transform: uppercase;
+}
 .music .menu li:last-child{
     border-right: 1px solid black;
 }
@@ -42,7 +47,7 @@
     margin: 40px 0;
 }
 
-.music a {
+.music article a {
     color: grey;
 }
 
@@ -54,7 +59,40 @@
     margin-left: 30px;
 }
 
-.music h2{
-    margin: 0;
+.music article{
+    margin: 60px 0;
 }
+
+.music article h2{
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    font-family: 'raleway';
+    font-size: 30px;
+}
+
+.music article ol {
+    margin-top: 30px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.music article ol li{
+    list-style-type: decimal-leading-zero;
+}
+
+.music article .texto{
+    margin-top: 30px;
+}
+
+.music article a {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.music article iframe {
+    width: 900px;
+    height: 499px;
+}
+
+
 
